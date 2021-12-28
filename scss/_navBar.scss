@@ -1,0 +1,38 @@
+nav{
+    
+    img{
+        width: 100px;
+    }
+}
+
+#botonera{  
+    font-size: 1.5em;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #546374, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bdc3c7, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+    display: flex;
+    
+    
+    
+
+    ul{
+        
+        ul{
+                    
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+        
+        li{
+            a{
+                color: rgb(17, 16, 16);
+
+            }
+        }
+    }
+}
+

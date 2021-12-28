@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+$primary: #447986;
+$secondary: rgb(133, 128, 128);
+$dark: black;
+$table-bg: #57bc90;
+
+
+
+$px-1: 1.5em;
+$mx-1: 1.5em;
+
+
+$d-flex:flex;
+
+$w-15:15%;
+$w-25:25%;
+$w-50:50%;
+
+$colors:(
+    uno:rgb(19, 36, 25), 
+    dos:rgb(112, 209, 128), 
+    tres:rgb(75, 75, 240), 
+    cuatro:rgb(148, 36, 41));
+
+@each $name-color, $bg-color in $colors{
+    .fondo-#{$name-color}{
+        background-color:$bg-color;
+        
+        
+    }
+}
+
+@for $i from 1 through 6{
+    .text-#{$i}{
+        font-size: 1em *$i;
+    }
+}
+
+@each $icono in facebook, twitter, instagram{
+    .#{$icono}-icon{
+        background-image:url(../img/#{$icono}.png);
+        width: 60px;
+        height: 60px;
+        background-size:100%;
+        list-style: none;
+    }
+}
+
+@media (max-width: 576px){
+    .zocaloContacto{
+        font-size: 0.8em;
+    }
+
+    .parrafo--cursos{
+        font-size: 0.5em;
+    }
+
+    .img-homero{
+        height: 100vh;
+        width: 100vh;
+    }  
+}
+
+@media (max-width: 768px){
+    .parrafo--cursos{
+        font-size: 0.5em;
+    }
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+p{
+    font-family: "Roboto Mono", sans-serif;
+}
+article{
+margin-bottom: 30px;
+border: black;
+border-color: black;
+
+}
+h1{
+font-size: 6rem;
+font-family: "Russo One", sans-serif;
+text-align: center;
+
+
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+font-size: 1rem;
+font-family: "Balsamiq sans", sans-serif;
+}
+.btn-tincho{
+background: rgb(32, 122, 206);
+
+}
+
+
+main{
+    background-image: linear-gradient(to top, #77c9d4 0%, #57bc90 100%);
+    height: auto;
+
+}
+.container__accordion{
+    height: 400px;
+}
+a{
+    color: black;
+}
+form{
+    background-color: #95cfbe;
+    background-image: linear-gradient(0deg, #61a088 0%, #97D9E1 100%);
+    height: auto;
+    padding: 10px;
+
+}
+
+
+.table{
+    text-align: center;
+    
+}
+.tabla--titulo{
+    text-align: center;
+    padding: 20px;
+}
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.img-article{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 350px;
+      }
+.card-img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 350px;
+
+} 
+.news__text--bold{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+}     
+.contacto--title{
+    font-size: 4rem;
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+}
+.main--error{
+    height: auto;
+}
+.parrafo--cursos{
+    font-size: 0.9em;
+}
+.btn-form{
+    background: linear-gradient(to top, #08bdeb 0%, #26945d 100%);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:  10px;
+    border-bottom-right-radius:  10px;
+}
+    .btn-form:hover{
+        background: linear-gradient(to top, #26945d 100%, #08bdeb 0%);
+        color: white;
+        transition: all 1s;
+    }
+    
+    
+    
+
+
+
+

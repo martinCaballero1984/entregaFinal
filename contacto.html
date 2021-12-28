@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="formulario de Contacto, consultas e inscripciones">
+    <meta name="keywords" content="contacto, informacion personal">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+          new WOW().init();
+    </script>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Formulario de contacto</title>
+  </head>
+  <body>
+    <!-- comienza nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="botonera"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="img/logofinal.svg" alt="logo de la empresa" class="wow rotateIn">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Cursos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Cursos.html">Guardavidas</a></li>
+                <li><a class="dropdown-item" href="Cursos.html">RCP</a></li>
+                <li><a class="dropdown-item" href="Cursos.html">Prof. Edu. fisica</a></li>
+                
+                </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="servicios.html">crossfit</a></li>
+                  <li><a class="dropdown-item" href="servicios.html">Gap</a></li>
+                  <li><a class="dropdown-item" href="servicios.html">Funcional</a></li>
+                  <li><a class="dropdown-item" href="servicios.html">Pilates</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+    </nav> 
+    <!-- cierra nav--> 
+    <main>
+      <section class="py-3">
+          <div class="container-fluid primary p-2 bd-highlight justify-content-space-between">
+              <div class="row ">
+                  <h2 class="contacto--title">Contacto</h2>
+                  <section class="contactos mb-2 col-lg-4 col-md-6">
+                     
+                      <!--inicia form-->
+                      <form class="formulario ">
+                          <fieldset>
+                              <legend>Info personal</legend>
+                              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre"><br>
+                              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                              <br>
+                              
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4"> <br>
+                              <label for="">Consulta</label><br>
+                              <textarea name="Consulta" id="Consulta" cols="34" rows="6"></textarea> 
+                              <br>
+                              <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+                              <div class="col-sm-10">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="gridRadios1">
+                                    Hombre
+                                  </label>
+                                </div>
+                              </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                  <label class="form-check-label" for="gridRadios2">
+                                    Mujer
+                                  </label>
+                                </div>
+                                <br>
+                                  
+                              <div>¿Quiere que lo contactemos?
+                              <input type="checkbox" name="Acepta" value="1"><br>
+                              <select name="Diciplina">
+                                  <option value="Crossfit">Crossfit</option>
+                                  <option value="Funcional">Funcional</option>
+                                  <option value="Gap">Gap</option>
+                                  <option value="Pilates">Pilates</option> 
+                              </select>
+                              </div>
+                              <br>
+                                                                                                       
+                              <input type="reset" value="Limpiar" class="btn-form btn-lg rounded-pill"/>  
+                                                       
+                              <input type="submit" value="Enviar" class="btn-form btn-lg rounded-pill"/>  
+                              
+                              
+                          </fieldset>
+                      </form>
+                      <!-- cierra form-->
+            
+                  </section>
+
+                  <section class="mapa ml-20 mb-2 col-lg-6 col-md-6 col-sm-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3828.6137743929103!2d-58.54015118919141!3d-34.453044180220395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1640125474250!5m2!1ses-419!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <h4>trainingfc@gmail.com</h4>
+                  </section>
+                  
+
+              </div>
+              
+
+          </div>
+       </section>
+    </main>
+      <!-- comienza footer-->
+    <footer class="zocalo">
+        <div class="zocaloWhatsapp">
+        
+          <a href="https://wa.me/<number>">
+            <img src="img/whatsapp-logo.png" alt="whatsapp-logo" class="logoWhatsapp">
+          </a>
+        </div>
+        <div class="zocaloRedes">
+        
+          <a href="http://facebook.com" target="_blank">   
+              <img src="https://icongr.am/fontawesome/facebook-square.svg?size=45&color=ef0606" alt="facebook-square">
+          </a>
+    
+          <a href="http://twitter.com" target="_black">   
+              <img src="https://icongr.am/fontawesome/twitter-square.svg?size=45&color=ef0606" alt="twitter-square">
+          </a>
+          <a href="http://instagram.com" target="_black">   
+              <img src="https://icongr.am/fontawesome/instagram.svg?size=45&color=ef0606" alt="instagram">
+          </a>
+          
+        </div>
+        <div class="zocaloContacto">
+        <p>Constitución 2889 <br>
+          San Fernando - Bs As
+        </p>
+        
+      </div>
+    </footer>
+    <!-- cierra footer-->
+         
+        <script src="js/bootstrap.bundle.min.js"></script>
+    
+        
+      </body>
+    </html>
